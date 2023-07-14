@@ -23,6 +23,7 @@ function App() {
 
   return (
     <div>
+      <nav><h1>STAR WARS STARSHIPS</h1></nav>
       <Starships data={data} />
     </div>
   )
