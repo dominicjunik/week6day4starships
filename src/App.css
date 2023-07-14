@@ -1,0 +1,22 @@
+.box {
+ display: flex;
+ flex-wrap: wrap;
+ width: 600px;
+ text-align: center;
+ border-radius: 10%;
+}
+
+.starship{
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(166, 24, 24);
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  }
+
+button{
+  /* border: none; */
+  border-radius: 10%;
+  background-color: red;
+}
