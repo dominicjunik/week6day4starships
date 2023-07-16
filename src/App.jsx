@@ -18,7 +18,8 @@ function App() {
     let response = await fetch(api)
     const ships = await response.json();
     // console.log(ships.results)
-    setData(ships.results)    
+    setData(ships.results)
+    console.log(data)   
   }
 
   return (
